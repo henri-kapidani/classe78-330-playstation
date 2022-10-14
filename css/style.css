@@ -1,0 +1,66 @@
+body {
+	margin-top: 111px;
+	/* background-color: salmon; */
+}
+
+.bar-sony {
+	height: 35px;
+}
+
+.dropdown {
+	position: static;
+}
+
+.dropdown-menu[data-bs-popper] {
+	width: 100%;
+	margin-top: 0;
+}
+
+.dropdown-menu {
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu.show {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.dropdown-item {
+	text-align: center;
+}
+
+.dropdown-item img {
+	display: block;
+	width: 100%;
+}
+
+.bg-jumbo {
+	padding: 200px 0 50px;
+	background-image: url('../img/jumbo-bg.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.card-game {
+	padding: 3px;
+	border: 3px solid transparent;
+	border-radius: 1rem;
+	overflow: hidden;
+	transition: transform .6s;
+}
+
+.card-game.active {
+	border: 3px solid blue;
+}
+
+.card-game:hover {
+	border: 3px solid blue;
+	transform: translateY(-20px);
+	cursor: pointer;
+}
+
+.card-game img {
+	border-radius: calc(1rem - 6px);
+}
